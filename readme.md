@@ -196,3 +196,8 @@ of the first three query has nothing in common as can be seen in the result
 of the last query
 
 <img align="center" src="images/prefix_2.png" height="400"> 
+
+
+### Demo
+
+<img align="center" src="images/demo.gif" height="400">

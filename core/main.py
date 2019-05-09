@@ -7,6 +7,7 @@ if __name__ == '__main__':
     while True:
         query = input("Enter your query: ")
         if query.lower() == "exit":
+            print("Thank You for using WikiFinder !!!")
             break
         start = datetime.now()
         pages = wiki.search(query)

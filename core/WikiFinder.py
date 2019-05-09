@@ -33,11 +33,13 @@ class WikiFinder:
         if urls:
             self.urls = list(map(lambda x: Site(x), urls))
         elif html_docs.exists:
+            print("Loading web pages from input file {0}".format(html_docs))
             self.urls = []
             sites = json.loads(open(html_docs).read())['sites']
             for site in sites:
                 self.urls.append(Site(site['url'], site['html']))
         elif url_list.exists:
+            print("Loading web pages from input file {0}".format(url_list))
             self.urls = list(map(lambda x: Site(x), open(url_list).read().rstrip().split('\n')))
         else:
             self.urls = []
