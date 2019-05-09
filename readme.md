@@ -163,4 +163,5 @@ wiki = WikiFinder(html_docs="custom_file_location.json")
 
 ### Output
 The output is as seen
+
 <img align="center" src="images/output_1.png" height="400">
