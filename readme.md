@@ -165,3 +165,34 @@ wiki = WikiFinder(html_docs="custom_file_location.json")
 The output is as seen
 
 <img align="center" src="images/output_1.png" height="400">
+
+
+### Edge Cases
+#### Intersection of two different results
+As we can see the output of ```tony``` and ```island``` have nothing in
+common and thus we didn't find any result when querying for ```tony island```
+
+<img align="center" src="images/intersection_1.png" height="400">
+
+
+Here the word ```statue``` is common in the first and last query
+however we didn't find any result for ```Abraham Lincoln``` thus it explains
+why we didn't find any result for the last query  
+
+<img align="center" src="images/intersection_2.png" height="400">
+
+
+#### Matching prefix from different queries
+Here the prefix ```foot``` matches in both the queries however the result
+varies in both cases.
+
+<img align="center" src="images/prefix_1.png" height="400">
+
+
+Here each query is a prefix of the next next query ie. ```ma``` is a
+prefix of ```mat``` and ```mat``` is a prefix of ```matador```, however
+the result is different in all the three cases, as well as the intersection
+of the first three query has nothing in common as can be seen in the result
+of the last query
+
+<img align="center" src="images/prefix_2.png" height="400"> 
