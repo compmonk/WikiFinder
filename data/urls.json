@@ -1,0 +1,28 @@
+{
+  "sites": [
+    {
+      "url": "https://en.wikipedia.org/wiki/New_York_City",
+      "html": "New York City - Wikipedia.html"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bullfighting",
+      "html": "Bullfighting - Wikipedia.html"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Football",
+      "html": "Football - Wikipedia.html"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hockey",
+      "html": "Hockey - Wikipedia.html"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Chuck_Norris",
+      "html": "Chuck Norris - Wikipedia.html"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Monte_Cristo_sandwich",
+      "html": "Monte Cristo sandwich - Wikipedia.html"
+    }
+  ]
+}
