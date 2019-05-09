@@ -136,7 +136,8 @@ wiki = WikiFinder(url_list="custom_file_location.txt")
 
 #### ```urls.json```
 A list of urls along with the path of the saved html documents can be
-stored in the ```urls.json``` file in the ```data``` folder. It should follow
+stored in the ```urls.json``` file in the ```data``` folder. The html
+files are stored in the ```data/html``` folder. ```urls.json``` should follow
 the following format:
 
 ```json
